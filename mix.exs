@@ -31,13 +31,13 @@ defmodule Bumblebee.MixProject do
   defp deps do
     [
       {:axon, "~> 0.5.0", axon_opts()},
-      {:tokenizers, "~> 0.2.0 or ~> 0.3.0"},
+      {:tokenizers, "~> 0.3.0"},
       {:nx, "~> 0.5.0"},
       {:exla, "~> 0.5.0", only: [:dev, :test]},
       {:torchx, "~> 0.5.0", only: [:dev, :test]},
       {:nx_image, "~> 0.1.0"},
       {:unpickler, "~> 0.1.0"},
-      {:castore, "~> 0.1 or ~> 1.0"},
+      {:castore, "~> 0.1.22"},
       {:jason, "~> 1.4.0"},
       {:unzip, "0.8.0"},
       {:progress_bar, "~> 2.0"},
